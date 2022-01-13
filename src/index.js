@@ -18,6 +18,10 @@ const weatherLocationLists = document
 
 const createLastSearch = (location) => {
   const li = document.createElement('li');
+  li.addEventListener('click', (event) => {
+    setView(event.target.textContent);
+    // setLocation(event.target.va);
+  });
   li.append(location);
   return li;
 };
