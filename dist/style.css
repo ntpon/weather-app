@@ -126,6 +126,9 @@ nav {
   background-color: rgba(0, 0, 0, 0.12549019607843137);
   width: 100%;
 }
+.weather-des h2 {
+  text-transform: capitalize;
+}
 
 .bg {
   width: 100%;
@@ -145,4 +148,12 @@ nav {
 
 .icon-start {
   transform: scaleX(-1);
+}
+
+#weather-show {
+  display: none;
+}
+
+#weather-error {
+  display: none;
 }
